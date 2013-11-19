@@ -1,0 +1,316 @@
+#include <graphics.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <stdio.h>
+
+void flight(int t1,int t2)
+{
+  setcolor(0);settextstyle(5,0,1);    //
+  if(t2==1 || t2==11 || t2==21 || t2==31 || t2==41)
+  {outtextxy(11,90,"JET KONNECT(jk1186)");
+   outtextxy(200,90,"Dep: 10:30 am");
+   outtextxy(200,120,"Arr: 11:45 am");
+   outtextxy(400,90,"Class:Economy");
+   outtextxy(400,120,"Fare:4146 Rs");
+   outtextxy(11,90,"AIR INDIA(AI1290)");
+   outtextxy(200,90,"Dep: 10:30 AM");
+   outtextxy(200,120,"Arr: 11:45 AM");
+   outtextxy(400,90,"Class:economy");
+   outtextxy(400,120,"Fare:3126 Rs");
+   outtextxy(11,180,"FLY KINGFISHER(KF2811)");
+   outtextxy(200,180,"Dep: 05:45 PM");
+   outtextxy(200,210,"Arr: 06:30 PM");
+   outtextxy(400,180,"Class:economy");
+   outtextxy(400,210,"Fare:6026 Rs");
+   outtextxy(11,270,"INDI GO(IG2644)");
+   outtextxy(200,270,"Dep: 07:30 AM");
+   outtextxy(200,300,"Arr: 08:30 AM");
+   outtextxy(400,270,"Class:economy");
+   outtextxy(400,300,"Fare:2999 Rs");
+   outtextxy(11,340,"SPICE JET(S8211)");
+   outtextxy(200,340,"Dep: 01:45 PM");
+   outtextxy(200,370,"Arr: 2:30 PM");
+   outtextxy(400,340,"Class:economy");
+   outtextxy(400,370,"Fare:2999 Rs");}
+   if(t2==4 || t2==14 || t2==24 || t2==34 || t2==44)
+   {outtextxy(11,90,"INDIAN(I1127)");
+   outtextxy(200,90,"Dep: 10:30 AM");
+   outtextxy(200,120,"Arr: 12:00PM ");
+   outtextxy(400,90,"Class:Economy");
+   outtextxy(400,120,"Fare:5980 Rs");
+   outtextxy(11,90,"PARAMOUNT(PA1100");
+   outtextxy(200,90,"Dep: 3:30 PM");
+   outtextxy(200,120,"Arr: 5:00 PM");
+   outtextxy(400,90,"Class:economy");
+   outtextxy(400,120,"Fare:5888 Rs");
+   outtextxy(11,180,"FLY KINGFISHER(KF2811)");
+   outtextxy(200,180,"Dep: 1:30 PM");
+   outtextxy(200,210,"Arr: 2:30 PM");
+   outtextxy(400,180,"Class:economy");
+   outtextxy(400,210,"Fare:6343 Rs");
+   outtextxy(11,270,"INDI GO(IG2644)");
+   outtextxy(200,270,"Dep: 10:30 am");
+   outtextxy(200,300,"Arr: 11:45 am");
+   outtextxy(400,270,"Class:economy");
+   outtextxy(400,300,"Fare:4999 Rs");
+   outtextxy(11,340,"SILK AIR(S8211)");
+   outtextxy(200,340,"Dep: 12:30 PM");
+   outtextxy(200,370,"Arr: 02:30 PM");
+   outtextxy(400,340,"Class:economy");
+   outtextxy(400,370,"Fare:6999 Rs");}
+   if(t2==8 || t2==18 || t2==28 || t2==38 || t2==48)
+   {outtextxy(11,90,"GO AIR(G16617)");
+   outtextxy(200,90,"Dep: 08:20 AM");
+   outtextxy(200,120,"Arr: 10:00 AM ");
+   outtextxy(400,90,"Class:Economy");
+   outtextxy(400,120,"Fare:4559 Rs");
+   outtextxy(11,90,"JET AIRWAYS(JT1111");
+   outtextxy(200,90,"Dep: 01:45 PM");
+   outtextxy(200,120,"Arr:03:00 PM");
+   outtextxy(400,90,"Class:economy");
+   outtextxy(400,120,"Fare:5196 Rs");
+   outtextxy(11,180,"DECCAN(DC7811)");
+   outtextxy(200,180,"Dep: 07:30 PM");
+   outtextxy(200,210,"Arr: 09:00 PM");
+   outtextxy(400,180,"Class:economy");
+   outtextxy(400,210,"Fare:6348 Rs");
+   outtextxy(11,270,"TAJ AIR(T2894)");
+   outtextxy(200,270,"Dep: 04:00 PM ");
+   outtextxy(200,300,"Arr: 105:30 PM ");
+   outtextxy(400,270,"Class:economy");
+   outtextxy(400,300,"Fare:4999 Rs");
+   outtextxy(11,340,"AIR INDIA EXPRESS (AI8211)");
+   outtextxy(200,340,"Dep: 12:30 PM");
+   outtextxy(200,370,"Arr: 01:30 PM");
+   outtextxy(400,340,"Class:economy");
+   outtextxy(400,370,"Fare:6999 Rs");}
+   if(t2==10 || t2==20 || t2==30 || t2==40 || t2==50)
+   {outtextxy(11,90,"INDIAN(I1127)");
+   outtextxy(200,90,"Dep: 6:30 AM");
+   outtextxy(200,120,"Arr: 8:00PM ");
+   outtextxy(400,90,"Class:Economy");
+   outtextxy(400,120,"Fare:6380 Rs");
+   outtextxy(11,90,"GO AIR(G1600");
+   outtextxy(200,90,"Dep: 3:20 PM");
+   outtextxy(200,120,"Arr: 5:00 PM");
+   outtextxy(400,90,"Class:economy");
+   outtextxy(400,120,"Fare:5888 Rs");
+   outtextxy(11,180,"JET AIRWAYS(JA6611)");
+   outtextxy(200,180,"Dep: 1:30 PM");
+   outtextxy(200,210,"Arr: 2:10 PM");
+   outtextxy(400,180,"Class:economy");
+   outtextxy(400,210,"Fare:4343 Rs");
+   outtextxy(11,270,"JET KONNECT(JK2844)");
+   outtextxy(200,270,"Dep: 10:30 am");
+   outtextxy(200,300,"Arr: 11:15 am");
+   outtextxy(400,270,"Class:economy");
+   outtextxy(400,300,"Fare:4559 Rs");
+   outtextxy(11,340,"SPICE JET(S81211)");
+   outtextxy(200,340,"Dep: 12:00 AM");
+   outtextxy(200,370,"Arr: 01:30 AM");
+   outtextxy(400,340,"Class:economy");
+   outtextxy(400,370,"Fare:5699 Rs");}
+    if(t2==3 || t2==13 || t2==23 || t2==33 || t2==43)
+   {outtextxy(11,90,"FLY KINGFISHER(K11327)");
+   outtextxy(200,90,"Dep: 11:30 AM");
+   outtextxy(200,120,"Arr: 01:00PM ");
+   outtextxy(400,90,"Class:Economy");
+   outtextxy(400,120,"Fare:15980 Rs");
+   outtextxy(11,90,"SPICE JET(SP1900");
+   outtextxy(200,90,"Dep: 01:30 PM");
+   outtextxy(200,120,"Arr: 03:00 PM");
+   outtextxy(400,90,"Class:economy");
+   outtextxy(400,120,"Fare:15888 Rs");
+   outtextxy(11,180,"DECCAN(DC2711)");
+   outtextxy(200,180,"Dep: 02:30 PM");
+   outtextxy(200,210,"Arr: 04:30 PM");
+   outtextxy(400,180,"Class:economy");
+   outtextxy(400,210,"Fare:6343 Rs");
+   outtextxy(11,270,"JET LITE(JL2044)");
+   outtextxy(200,270,"Dep: 10:30 am");
+   outtextxy(200,300,"Arr: 11:45 am");
+   outtextxy(400,270,"Class:economy");
+   outtextxy(400,300,"Fare:10999 Rs");
+   outtextxy(11,340,"JET AIRWAYS(JA8611)");
+   outtextxy(200,340,"Dep: 12:30 PM");
+   outtextxy(200,370,"Arr: 01:30 PM");
+   outtextxy(400,340,"Class:economy");
+   outtextxy(400,370,"Fare:16999 Rs");}
+   if(t2==6 || t2==16 || t2==26 || t2==36 || t2==46)
+   {outtextxy(11,90,"AIR INDIA(AI1787)");
+   outtextxy(200,90,"Dep: 10:35 AM");
+   outtextxy(200,120,"Arr: 12:00PM ");
+   outtextxy(400,90,"Class:Economy");
+   outtextxy(400,120,"Fare:8980 Rs");
+   outtextxy(11,90,"PARAMOUNT(PA1190");
+   outtextxy(200,90,"Dep: 3:35 PM");
+   outtextxy(200,120,"Arr: 5:00 PM");
+   outtextxy(400,90,"Class:economy");
+   outtextxy(400,120,"Fare:8888 Rs");
+   outtextxy(11,180,"FLY KINGFISHER(KF2811)");
+   outtextxy(200,180,"Dep: 01:35 PM");
+   outtextxy(200,210,"Arr: 03:00 PM");
+   outtextxy(400,180,"Class:economy");
+   outtextxy(400,210,"Fare:6343 Rs");
+   outtextxy(11,270,"INDI GO(IG2644)");
+   outtextxy(200,270,"Dep: 09:30 AM");
+   outtextxy(200,300,"Arr: 11:00 AM");
+   outtextxy(400,270,"Class:economy");
+   outtextxy(400,300,"Fare:6999 Rs");
+   outtextxy(11,340,"JET LITE(S8211)");
+   outtextxy(200,340,"Dep: 12:55 PM");
+   outtextxy(200,370,"Arr: 02:35 PM");
+   outtextxy(400,340,"Class:economy");
+   outtextxy(400,370,"Fare:6999 Rs");}
+    if(t2==9 || t2==19 || t2==29 || t2==39 || t2==49)
+   {outtextxy(11,90,"JET KONNECT(JK8827)");
+   outtextxy(200,90,"Dep: 06:00 PM ");
+   outtextxy(200,120,"Arr: O7:00 PM ");
+   outtextxy(400,90,"Class:Economy");
+   outtextxy(400,120,"Fare:3980 Rs");
+   outtextxy(11,90,"JET AIRWAYS(JA1100");
+   outtextxy(200,90,"Dep: 3:45 PM");
+   outtextxy(200,120,"Arr: 5:00 PM");
+   outtextxy(400,90,"Class:economy");
+   outtextxy(400,120,"Fare:3008 Rs");
+   outtextxy(11,180,"FLY KINGFISHER(KF2811)");
+   outtextxy(200,180,"Dep: 11:45 PM");
+   outtextxy(200,210,"Arr: 01:00 PM");
+   outtextxy(400,180,"Class:economy");
+   outtextxy(400,210,"Fare:6000 Rs");
+   outtextxy(11,270," SILK AIR(SA2644)");
+   outtextxy(200,270,"Dep: 10:30 am");
+   outtextxy(200,300,"Arr: 11:45 am");
+   outtextxy(400,270,"Class:economy");
+   outtextxy(400,300,"Fare:4999 Rs");
+   outtextxy(11,340,"LUFTHANSA(S8211)");
+   outtextxy(200,340,"Dep: 12:30 PM");
+   outtextxy(200,370,"Arr: 02:30 PM");
+   outtextxy(400,340,"Class:economy");
+   outtextxy(400,370,"Fare:8899 Rs");}
+    if(t2==5 || t2==15 || t2==25 || t2==35 || t2==45)
+   {outtextxy(11,90,"JET LITE(JL2227)");
+   outtextxy(200,90,"Dep: 08:00 PM");
+   outtextxy(200,120,"Arr: 12:00 AM ");
+   outtextxy(400,90,"Class:Economy");
+   outtextxy(400,120,"Fare:15000 Rs");
+   outtextxy(11,90,"PARAMOUNT(PA1100");
+   outtextxy(200,90,"Dep: 3:30 PM");
+   outtextxy(200,120,"Arr: 5:00 PM");
+   outtextxy(400,90,"Class:economy");
+   outtextxy(400,120,"Fare:17088 Rs");
+   outtextxy(11,180,"JET AIRWAYS(J2811)");
+   outtextxy(200,180,"Dep: O8:30 PM");
+   outtextxy(200,210,"Arr: 09:10 PM");
+   outtextxy(400,180,"Class:economy");
+   outtextxy(400,210,"Fare:26343 Rs");
+   outtextxy(11,270," SILK AIR(SA2644)");
+   outtextxy(200,270,"Dep: 01:30 PM");
+   outtextxy(200,300,"Arr: 03:45 PM");
+   outtextxy(400,270,"Class:economy");
+   outtextxy(400,300,"Fare:14999 Rs");
+   outtextxy(11,340,"VIRGIN ATLANTIC(V9911)");
+   outtextxy(200,340,"Dep: 12:30 PM");
+   outtextxy(200,370,"Arr: 02:30 PM");
+   outtextxy(400,340,"Class:economy");
+   outtextxy(400,370,"Fare:26999 Rs");}
+   if(t2==2 || t2==12 || t2==22 || t2==32 || t2==42)
+   {outtextxy(11,90,"AIRINDIA EXPRESS(AI6627)");
+   outtextxy(200,90,"Dep: 12:30 AM");
+   outtextxy(200,120,"Arr: 01:30 PM ");
+   outtextxy(400,90,"Class:Economy");
+   outtextxy(400,120,"Fare:5980 Rs");
+   outtextxy(11,90,"INDIAN(I1760");
+   outtextxy(200,90,"Dep: 3:30 PM");
+   outtextxy(200,120,"Arr: 5:00 PM");
+   outtextxy(400,90,"Class:economy");
+   outtextxy(400,120,"Fare:5888 Rs");
+   outtextxy(11,180,"FLY KINGFISHER(KF2811)");
+   outtextxy(200,180,"Dep: 1:30 PM");
+   outtextxy(200,210,"Arr: 2:30 PM");
+   outtextxy(400,180,"Class:economy");
+   outtextxy(400,210,"Fare:7343 Rs");
+   outtextxy(11,270,"JET AIRWAYS(JA2644)");
+   outtextxy(200,270,"Dep: 10:30 PM");
+   outtextxy(200,300,"Arr: 11:45 PM");
+   outtextxy(400,270,"Class:economy");
+   outtextxy(400,300,"Fare:3369 Rs");
+   outtextxy(11,340,"VIRGIN GALACTIC(VG98011)");
+   outtextxy(200,340,"Dep: 12:30 PM");
+   outtextxy(200,370,"Arr: 02:30 PM");
+   outtextxy(400,340,"Class:economy");
+   outtextxy(400,370,"Fare:26999 Rs");}
+   if(t2==51 || t2==17 || t2==53 || t2==37 || t2==55 || t2==47)
+   {outtextxy(11,90,"INDIAN(I1887)");
+   outtextxy(200,90,"Dep: 11:00 AM");
+   outtextxy(200,120,"Arr: 12:00PM ");
+   outtextxy(400,90,"Class:Economy");
+   outtextxy(400,120,"Fare:4000 Rs");
+   outtextxy(11,90,"PARAMOUNT(PA1190");
+   outtextxy(200,90,"Dep: 3:30 PM");
+   outtextxy(200,120,"Arr: 5:00 PM");
+   outtextxy(400,90,"Class:economy");
+   outtextxy(400,120,"Fare:6000 Rs");
+   outtextxy(11,180,"FLY KINGFISHER(KF2891)");
+   outtextxy(200,180,"Dep: 1:30 PM");
+   outtextxy(200,210,"Arr: 2:30 PM");
+   outtextxy(400,180,"Class:economy");
+   outtextxy(400,210,"Fare:6343 Rs");
+   outtextxy(11,270,"INDI GO(IG2664)");
+   outtextxy(200,270,"Dep: 11:00 am");
+   outtextxy(200,300,"Arr: 11:45 am");
+   outtextxy(400,270,"Class:economy");
+   outtextxy(400,300,"Fare:4999 Rs");
+   outtextxy(11,340,"SILK AIR(S8233)");
+   outtextxy(200,340,"Dep: 12:30 PM");
+   outtextxy(200,370,"Arr: 02:30 PM");
+   outtextxy(400,340,"Class:economy");
+   outtextxy(400,370,"Fare:6999 Rs");}
+   if(t2==7 || t2==52 || t2==27 || t2==54 || t2==56)
+   {outtextxy(11,90,"JET KONNECT(JK8997)");
+   outtextxy(200,90,"Dep: 10:30 AM");
+   outtextxy(200,120,"Arr: 12:00PM ");
+   outtextxy(400,90,"Class:Economy");
+   outtextxy(400,120,"Fare:5980 Rs");
+   outtextxy(11,90,"JET LITE(JL6700");
+   outtextxy(200,90,"Dep: 3:30 PM");
+   outtextxy(200,120,"Arr: 5:00 PM");
+   outtextxy(400,90,"Class:economy");
+   outtextxy(400,120,"Fare:5888 Rs");
+   outtextxy(11,180,"JET AIRWAYS(JA2811)");
+   outtextxy(200,180,"Dep: 1:30 PM");
+   outtextxy(200,210,"Arr: 2:30 PM");
+   outtextxy(400,180,"Class:economy");
+   outtextxy(400,210,"Fare:6343 Rs");
+   outtextxy(11,270,"CONCORDE(C2688)");
+   outtextxy(200,270,"Dep: 10:30 am");
+   outtextxy(200,300,"Arr: 11:45 am");
+   outtextxy(400,270,"Class:economy");
+   outtextxy(400,300,"Fare:4999 Rs");
+   outtextxy(11,340,"GO AIR(GO2011)");
+   outtextxy(200,340,"Dep: 12:30 PM");
+   outtextxy(200,370,"Arr: 02:30 PM");
+   outtextxy(400,340,"Class:economy");
+   outtextxy(400,370,"Fare:6999 Rs");}
+
+
+  }
+
+ void main()
+ {int from,to;from=1;to=12;
+ flight(from,to);
+
+ 
+
+
+   
+
+
+
+                 
+
+                     
+                 
+
+
+   
